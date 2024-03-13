@@ -1,0 +1,114 @@
+<style>
+
+    .h1{
+        text-align: center;
+        font-size: 60px;ackground-color: #eaf1f9;
+       background-image: linear-gradient(62deg, #eaf1f9 0%, #eeebf0 100%);
+       margin-top: 10px;
+      padding: 10px;
+      color:green;
+         }
+
+
+
+.info{
+    margin: 20px;
+    background-image: linear-gradient(62deg, #eaf1f9 0%, #eeebf0 100%);
+       margin-top: 10px;
+      padding: 10px;  
+}
+.img{
+    padding: 20px;
+
+}
+.b{
+  text-align: center;
+  font-size: 30px;
+  background-color: #eaf1f9;
+background-image: linear-gradient(62deg, #eaf1f9 0%, #eeebf0 100%);
+
+
+}
+.p{
+  margin: 20px;
+  background-color: #eaf1f9;
+background-image: linear-gradient(62deg, #eaf1f9 0%, #eeebf0 100%);
+
+}
+img:hover{
+  transform: scale(1.1);
+}
+ 
+
+
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+        transition: color 0.3s;
+    }
+
+    .card-description {
+        color: #666;
+        font-size: 16px;
+        transition: color 0.3s;
+    }
+
+    .card-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.3s;
+        display: flex;
+        justify-content: wrap;
+        align-items: center;
+        text-align: center;
+        padding: 20PX;
+        display: inline-block;
+    }
+
+    .card:hover .card-overlay {
+        opacity: 1;
+    }
+
+    .card-overlay-content {
+        color: #fff;
+    }
+
+
+</style>
