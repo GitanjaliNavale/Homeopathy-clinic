@@ -50,7 +50,40 @@
             margin: 60px ;
            }
            
-          
+           .footer{
+        
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-around;
+            margin-top: 66px;
+            text-align: center;
+            background-color:rgb(55, 50, 50);
+    
+           }
+    
+           
+    
+           .inf{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            display: inline;
+           }
+           .inf2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size:large ;
+           }
+    
+           .contact-foot{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            
+           }
+    
+           .footer-child{
+            margin-top: 50px;
+           }
+    
          
 
     </style>
