@@ -1,192 +1,193 @@
-<style>
-
-body{
+body {
   background-color: #c19ef5;
   text-align: center;
 }
 
 
-       
-
-       
-
-        .logo{
-          height: 60px;
-          
-          border-radius: 50%;
-
-        }
-
-        .icon{
-        margin: 30px 10px  ;
-        
-
-       }
-        #home-heading{
-            font-size: 40px;
-            color: rgb(99, 33, 33);
-            margin: 80px 0 40px 0;
-
-        }
-        .card-main{
-          
-            display: flex;
-           flex-wrap: wrap;
-           
-           justify-content: space-evenly;
-
-          margin: 50px auto;
-           padding: 0 10px;
-        }
-
-        .parent{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-          margin: 70px 0;
-         
-         
-
-        
-        }
-        .main-imgd{
-            display: inline-block;
-            text-align: center;
-            width: 550px;
-        }
-        
-
-       .card-ser{
-        display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-
-       }
-
-       .card-child{
-        border: 1px solid black;
-        border-radius: 20px;
-        margin: 10px;
-        
-        height: 120px;
-        width: 130px;
-        background-color:rgb(228, 242, 237);
-        box-shadow: 10px 5px 10px grey;
-       }
-
-       .card-child:hover{
-        transform: scale(1.1);
-       }
-        
-
-
-        .img-d{
-            height: 40px;
-            border-radius: 50%;
-        }
-
-      
-       .image{
-
-        height: 250px;
-        width: 250px;
-        display: inline-block;
-      
-
-       }
-
-       .card-bodyy{
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-around;
-
-
-       
-       }
-       
-
-       .heading{
-
-        
-        text-align: center;
-        display: inline-block;
-        padding: 40px 0;
-        
-       }
-
-       .visit-form{
-        height: 40px;
-        width:240px ;
-        margin: 10px;
-        padding: 5px 10px;
-        box-shadow: 10px 5px 5px rgb(82, 81, 81);
-       
-        border-radius: 10px;
-
-       }
-
-       
-
-       .visit-submit{
-        height: 30px;
-        width:200px ;
-        background-color: #e7f1f1;
-background-image: linear-gradient(90deg, #a9f2f4 0%, #c19ef5 100%);
-
-
-        border-radius: 10px;
-      padding: 2px;
-      box-shadow: 10px 5px 5px rgb(82, 81, 81);
-     
 
 
 
-       }
 
-       .visit-submit:hover{
-       
-        background-image: linear-gradient(120deg, #eee2f9 0%, #97c4eb 100%);
-       }
+.logo {
+  height: 60px;
 
-        
-       
+  border-radius: 50%;
+
+}
+
+.icon {
+  margin: 30px 10px;
+
+
+}
+
+#home-heading {
+  font-size: 40px;
+  color: rgb(99, 33, 33);
+  margin: 80px 0 40px 0;
+
+}
+
+.card-main {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+
+  margin: 50px auto;
+  padding: 0 10px;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 70px 0;
 
 
 
-       .footer{
-        
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:space-around;
-        margin-top: 66px;
-        text-align: center;
-        background-color:rgb(55, 50, 50);
 
-       }
+}
 
-       
+.main-imgd {
+  display: inline-block;
+  text-align: center;
+  width: 550px;
+}
 
-       .inf{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: large;
-        display: inline;
-       }
-       .inf2{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size:large ;
-       }
 
-       .contact-foot{
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        
-       }
+.card-ser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 
-       .footer-child{
-        margin-top: 50px;
-       }
+}
 
-      
-      
- </style>
+.card-child {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+
+  height: 120px;
+  width: 130px;
+  background-color: rgb(228, 242, 237);
+  box-shadow: 10px 5px 10px grey;
+}
+
+.card-child:hover {
+  transform: scale(1.1);
+}
+
+
+
+.img-d {
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+.image {
+
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+
+
+}
+
+.card-bodyy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+
+}
+
+
+.heading {
+
+
+  text-align: center;
+  display: inline-block;
+  padding: 40px 0;
+
+}
+
+.visit-form {
+  height: 40px;
+  width: 240px;
+  margin: 10px;
+  padding: 5px 10px;
+  box-shadow: 10px 5px 5px rgb(82, 81, 81);
+
+  border-radius: 10px;
+
+}
+
+
+
+.visit-submit {
+  height: 30px;
+  width: 200px;
+  background-color: #e7f1f1;
+  background-image: linear-gradient(90deg, #a9f2f4 0%, #c19ef5 100%);
+
+
+  border-radius: 10px;
+  padding: 2px;
+  box-shadow: 10px 5px 5px rgb(82, 81, 81);
+
+
+
+
+}
+
+.visit-submit:hover {
+
+  background-image: linear-gradient(120deg, #eee2f9 0%, #97c4eb 100%);
+}
+
+
+
+
+
+
+.footer {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 66px;
+  text-align: center;
+  background-color: rgb(55, 50, 50);
+
+}
+
+
+
+.inf {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  display: inline;
+}
+
+.inf2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.contact-foot {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.footer-child {
+  margin-top: 50px;
+}
+
+
+
