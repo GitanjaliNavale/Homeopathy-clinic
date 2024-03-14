@@ -1,17 +1,4 @@
 
-
-
-
-
-
-
-
-
-  <style>
-       
-
-        
-        
      
           #img1{
             width: 600px;
@@ -83,9 +70,24 @@
            .footer-child{
             margin-top: 50px;
            }
+
+           .eye{
+            height: 50px;
+            width: 40px;
+            
+            
+           }
+
+           .mission{
+            height: 50px;
+            width: 40px;
+            
+           }
+
+           .card-img
     
          
 
-    </style>
+    
 
 
